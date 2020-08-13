@@ -11,10 +11,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("sdlkfjsd");
+  res.send(layout(" "));
 });
 
-// app.get("/", function (req, res) {
+// app.get("./public/stylesheets", function (req, res) {
 //   res.redirect("/wiki/");
 // });
 
